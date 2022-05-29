@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="junit">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../../../../Program Files/JetBrains/IntelliJ IDEA 2021.3.3/lib/junit.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../../../Program Files/JetBrains/IntelliJ IDEA 2021.3.3/lib/junit4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

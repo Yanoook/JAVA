@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.isep.rpg_isep.FightToUp">
+   <children>
+      <Label layoutX="164.0" text="What do you want to improve ?">
+         <font>
+            <Font name="Papyrus" size="21.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.18611987381703476" endY="0.7539432120247971" startX="0.18611988133812551" startY="0.5425868109573702">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9649122953414917" green="0.044671863317489624" blue="0.044671863317489624" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </Label>
+      <Button fx:id="closeButton" cancelButton="true" layoutX="14.0" layoutY="370.0" mnemonicParsing="false" onAction="#handleCloseButtonAction" text="Leave Game">
+         <font>
+            <Font name="Segoe UI Semibold Italic" size="11.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.18611987381703476" endY="0.42271292811312516" startX="0.18611988133812551" startY="0.5425868109573702">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9649122953414917" green="0.044671863317489624" blue="0.044671863317489624" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="512.0" layoutY="361.0" mnemonicParsing="false" onAction="#confirm" text="Confirm">
+         <font>
+            <Font name="Segoe UI Semibold Italic" size="11.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="0.18611987381703476" endY="0.42271292811312516" startX="0.18611988133812551" startY="0.5425868109573702">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.9649122953414917" green="0.044671863317489624" blue="0.044671863317489624" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </textFill>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ComboBox fx:id="choice" layoutX="225.0" layoutY="200.0" prefWidth="150.0" />
+   </children>
+   <cursor>
+      <Cursor fx:constant="CROSSHAIR" />
+   </cursor>
+</AnchorPane>
